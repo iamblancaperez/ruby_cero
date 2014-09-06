@@ -1,4 +1,4 @@
-Bloques y iteradores
+Bloques e iteradores
 ====================
 
 Una de las fortalezas particulares de Ruby son los Bloques y los iteradores.
