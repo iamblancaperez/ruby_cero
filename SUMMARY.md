@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introducción](README.md)
 * [Instalación](instalacion/README.md)
 * [Programación Basica con Ruby](programacion_basica_con_ruby/README.md)
    * [Variables](programacion_basica_con_ruby/variables.md)
