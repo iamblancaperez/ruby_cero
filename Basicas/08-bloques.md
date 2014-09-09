@@ -50,7 +50,7 @@ end
 
 ejecutar_bloque_con_params_global('Sergio', 29) { puts "este es el contenido del bloque" }
 
-# Con paremetros que se van a usar dentro del bloque.
+# Con parametros que se van a usar dentro del bloque.
 def ejecutar_bloque_con_params(name, age)
   puts "Comienza la ejecución del metodo con paramatros"
   yield(name, age)
