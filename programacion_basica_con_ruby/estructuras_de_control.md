@@ -1,5 +1,4 @@
-Estructuras de Control de Ruby
-==============================
+# Estructuras de control
 
 Ruby ofrece diferentes estructuras de control que nos permiten alterar el flujo de la ejecución del programa, entre ellas podemos destacar:
 

@@ -1,5 +1,4 @@
-Metodos de entrada y salida de Ruby
-===================================
+# Entrada y Salida Basica
 
 Los metodos de I/O son utilizados para leer y escribir, por lo general esta entrada/salida se dara en: la ejecucion de un script, lectura y escritura de un archivo y en el browser.
 

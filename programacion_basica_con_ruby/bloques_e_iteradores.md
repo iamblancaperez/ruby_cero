@@ -1,16 +1,10 @@
-Bloques e iteradores
-====================
+# Bloques e iteradores
 
-Una de las fortalezas particulares de Ruby son los Bloques y los iteradores.
-Juntos son unas de las herramientas mas utilizadas dentro del desarrollo con Ruby,
-tanto que los iteradores en general son los encargados de sustituir a los metodos
-para hacer ciclos (for, until, while, etc).
+Una de las fortalezas particulares de Ruby son los Bloques y los iteradores. Juntos son unas de las herramientas mas utilizadas dentro del desarrollo con Ruby, tanto que los iteradores en general son los encargados de sustituir a los metodos para hacer ciclos (for, until, while, etc).
 
 ## Bloques
 
-Los bloques no son mas, se pedazos de código que pueden ser guardados y ejecutados por
-otra función. Los bloques de código pueden ser utilizados para implementar callbacks, pasar codigo como
-parametro de una función y implementar los iteradores.
+Los bloques no son mas, se pedazos de código que pueden ser guardados y ejecutados por otra función. Los bloques de código pueden ser utilizados para implementar callbacks, pasar codigo como parametro de una función y implementar los iteradores.
 
 Existen dos maneras de definir un bloque en Ruby
 
@@ -26,9 +20,7 @@ do
 end
 ```
 
-Existen varias maneras de ejecutar un bloque cuando es pasado como una función,
-la manera mas común de realizarlo es usando el metodo 'yield', el cual es un metodo
-que ejecuta el contenido del bloque.
+Existen varias maneras de ejecutar un bloque cuando es pasado como una función, la manera mas común de realizarlo es usando el metodo 'yield', el cual es un metodo que ejecuta el contenido del bloque.
 
 ```ruby
 # Sin parametros

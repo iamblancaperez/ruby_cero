@@ -1,5 +1,4 @@
-Ciclos
-======
+# Ciclos
 
 Los ciclos o bucles se utilizan para ejecutar un bloque de codigo una cantidad limitada de veces. Es importante que la condicion de parada del ciclo este bien definida para el ciclo pare, en caso contrario quedara en un ciclo infinito.
 

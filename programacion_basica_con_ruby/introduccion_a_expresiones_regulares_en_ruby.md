@@ -1,5 +1,4 @@
-Expresiones Regulares
-=====================
+# Introducción a Expresiones Regulares en Ruby
 
 Ruby como otros lenguajes de scripting trae de manera integrada soporte a expresiones regulares. La expresiones regulares
 en Ruby son un tipo de dato el cual debe declararse utilizando el "/".

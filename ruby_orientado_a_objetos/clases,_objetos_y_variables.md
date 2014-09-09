@@ -1,5 +1,4 @@
-Clases, Objetos y variables
-===========================
+# Clases, Objetos y variables
 
 Anteriormente habia mencionado que Ruby era un lenguaje orientado a objetos pero en los ejemplos anteriores no vimos el poder de esta orientación a objetos y como funciona.
 

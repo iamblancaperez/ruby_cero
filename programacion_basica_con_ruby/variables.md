@@ -1,5 +1,50 @@
-Intro a Ruby
-============
+# Variables y Constantes
+
+las variables y las constantes son una herramienta basica de la programación para almacenar datos en memoria. De esa manera hacer dinamico nuestro programa.
+
+## Variables
+
+Las variables las podemos relacionar con una caja o un lugar donde vamos a almacenar un dato el cual podemos usar luego.
+
+Ejemplo:
+
+Imaginen un juego, donde tienen su personaje. Ese persona tiene muchas caracteriticas propias del personaje, tomemos una de manera aleatoria: Su vida.
+
+La vida del personaje es una variable con la cual podemos realizar calculos, como sumarle vida si tomamos una posicion de curacion, restarle vida si nos golpean, si la vida llega a 0 podemos decir que nuestro personaje murio. 
+
+Lo importante es tomar el concepto de la variable VIDA la cual nos permite almacenar un dato dinamico (puede cambiar).
+
+En ruby las variables se definen de la siguiente manera:
+
+```ruby 
+vida = 100
+
+# Se pueden realizar operaciones basicas matematicas como +, - , /, *
+vida = vida - 20
+vida = vida + 20
+vida = vida / 2
+vida = vida * 2
+```
+
+## Constantes
+
+Las constantes son al igual que las variables una herramienta que nos permite almacenar un dato, mas a diferencia de las variables el contenido no puede variar en el tiempo.
+
+Siguiendo el ejemplo anterior.
+
+Si queremos mantener almacenado la cantidad de vida que suma un pote de curación pequeno, deberiamos almacenarlo en un Constante, ya que, siempre suma la misma cantidad de vida.
+
+```ruby 
+vida = 100
+POTE_PEQUENO = 20
+VENENO_PEQUENO = 10
+
+# Se pueden realizar operaciones basicas matematicas como +, - , /, *
+vida = vida + POTE_PEQUENO
+vida = vida - VENENO_PEQUENO
+```
+
+## Orientado a Objetos
 
 Ruby es un lenguaje interpretado Orientado a Objetos no fuertemente tipado, por lo tanto todo es un objeto. Por lo tanto vamos a ver como funcionan alguna variables y tipos de datos basicos.
 
@@ -135,3 +180,4 @@ Los hash en otros lenguejes como PHP son un array con key value. En ruby son un 
 ## Conclusion
 
 En general este puede ser el uso de variables y tipos de datos basicos que podemos usar en Ruby.
+
