@@ -1,20 +1,20 @@
-# Entrada y Salida Basica
+# Entrada y Salida Básica
 
-Los metodos de I/O son utilizados para leer y escribir, por lo general esta entrada/salida se dara en: la ejecucion de un script, lectura y escritura de un archivo y en el browser.
+Los métodos de I/O son utilizados para leer y escribir, por lo general esta entrada/salida se dará en casos como: la ejecución de un script, lectura y escritura de un archivo y en el browser.
 
-## En la ejecucion del script
+## En la ejecución del script
 
-Como hemos usado varias veces hasta ahora, en la ejecucion del script podemos usar el metodo puts para imprimir en pantalla el valor de una variable o objeto.
+Como hemos usado varias veces hasta ahora, en la ejecución del script podemos usar el método puts para imprimir en pantalla el valor de una variable o objeto.
 
 ```ruby
 puts "Hola mundo"
 Hola mundo
 ```
 
-Para poder obtener datos desde el teclado en la ejecucion del script, usamos el metodo 'gets'
+Para poder obtener datos desde el teclado en la ejecución del script, usamos el método 'gets'
 
 ```ruby
-puts "Escriba un numero de veces"
+puts "Escriba un número de veces"
 
 veces = gets
 i = 0
@@ -26,8 +26,8 @@ end
 
 ```
 
-## Conclusion
+## Conclusión
 
-Nuestros script pueden tomar entrada desde el teclado en ejecucion y guardarlo en una variable para luego utilizarlo. Importante, la ejecucion queda pausada hasta que se escriba en el teclado la entrada y se presione ENTER.
+Nuestros script pueden tomar entrada desde el teclado en ejecución y guardarlo en una variable para luego utilizarlo. Importante, la ejecución queda pausada hasta que se escriba en el teclado la entrada y se presione ENTER.
 
 El manejo de archivos lo realizaremos de manera mas detallada en otro tutorial.

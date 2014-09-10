@@ -1,6 +1,6 @@
 # Instalación
 
-Ruby es un lenguaje de scriping multi plataforma, por ser un lenguaje de scripting los documentos se escriben como un documento de texto plano con extension .rb y son ejecutados por un interprete. En ruby existen multiples interpretes, pero en principio instalaremos el interprete basico.
+Ruby es un lenguaje de scriping multi plataforma, es por esto que losdocumentos se escriben como un documento de texto plano, en este caso con extensión .rb y son ejecutados por un intérprete. En ruby existen múltiples intérpretes, pero en principio instalaremos el intérprete básico.
 
 Para realizar la instalación del interprete usaremos RVM (Ruby Version Manager) el cual permite instalar y manegar distintas versiones de Ruby sin que eso represente un problema de compatibilidad dentro de nuestro sistema operativo.
 
@@ -10,7 +10,7 @@ RVM trabaja en sistema basados en Unix como son: Linux y Mac OSX. Por lo tanto u
 
 La instalación de RVM se realiza descargando un script desde su sitio web, para poder realizar esa descarga debemos tener instalado en nuestro sistema operativo una herramienta llamada curl.
 
-En caso de usar Ubuntu o alguna distribución linux basada en debian, debemos asegurarnos de tener instalado curl y para eso podemos usar el siguiente comando:
+En caso de usar Ubuntu o alguna distribución Linux basada en Debian, debemos asegurarnos de tener instalado curl y para eso podemos usar el siguiente comando:
 
 #### En linux (Derivados de Debian)
 
@@ -39,7 +39,7 @@ Luego de terminar este proceso debemos cerrar la consola y volver a abrir para q
 rvm requirements
 ```
 
-Luego de instalar todos los requerimientos finalmente podemos instalar la version de ruby que queramos. 
+Luego de instalar todos los requerimientos, finalmente podemos instalar la versión de ruby que queramos. 
 
 Ejemplo:
 
@@ -50,17 +50,17 @@ rvm rubygems current
 ```
 ### Como correr ruby
 
-Existen muchas maneras de correr codigo Ruby, las dos mas comunes son:
+Existen muchas maneras de correr código Ruby, las dos más comunes son:
 
 - Utilizando la consola interactiva de Ruby
-- Ejecutando el archivo con el interprete
+- Ejecutando el archivo con el intérprete
 
 Para usar la consola usarmos el comando 'irb'
 
 ```bash
 irb
 ```
-La consola interactiva permite evaluar codigo Ruby de manera dinamica.
+La consola interactiva permite evaluar código Ruby de manera dinamica.
 
 Ejemplo:
 
@@ -68,7 +68,7 @@ Ejemplo:
 2.1.1 :001 > "Hola mundo, desde el irb"
  => "Hola mundo, desde el irb"
 ```
-La primera linea esta computa de un promt, el cual muestra la version de Ruby (en este caso 2.1.1) y la linea que se esta evaluando. Luego de evaluar el codigo que le presentemos nos retorna con '=>'.
+La primera línea se computa de un prompt, el cual muestra la versión de Ruby (en este caso 2.1.1) y la línea que se esta evaluando. Luego de evaluar el código que le presentemos el resultado es retornado '=>'.
 
 Y para ejecutar un archivo
 

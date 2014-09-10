@@ -6,7 +6,7 @@ Ruby ofrece diferentes estructuras de control que nos permiten alterar el flujo 
 * unless
 * case
 
-En este caso no usaremos la consola interactiva para probar nuestro codigo, sino. Que crearemos un archivo con la extension “.rb” para nuestras pruebas.
+En este caso no usaremos la consola interactiva para probar nuestro código, sin que crearemos un archivo con la extensión “.rb” para nuestras pruebas.
 
 ### IF
 
@@ -20,7 +20,7 @@ nombre = "Sergio Marin"
 if nombre == "Sergio Marin"
 	puts "El nombre es Sergio Marin"
 else
-	puts "El no es Sergio Marin"
+	puts "El NO es Sergio Marin"
 end
 
 # En caso de necesitar el else if en ruby se usa la siguiente sintaxis
@@ -47,16 +47,16 @@ El numero es igual a 3
 
 ### UNLESS
 
-La estructura de control UNLESS, es similar a el IF en cuanto a estructura pero solo ejecuta el codigo si no es igual a la condición
+La estructura de control UNLESS, es similar a el IF en cuanto a estructura pero solo ejecuta el código si no es igual a la condición (==FALSE)
 
 ```bash
 #!/usr/bin/ruby
 
 numero = 1
 unless numero == 1
-	puts "El numero no es el 1"
+	puts "El número no es el 1"
 else
-	puts "El numero es el 1"
+	puts "El número es el 1"
 end
 ```
 
@@ -65,7 +65,7 @@ La respuesta en este caso sera:
 ```bash
 ruby ~/Desktop/prueba_unless.rb
 
-El numero es el 1
+El número es el 1
 ```
 
 ### Case

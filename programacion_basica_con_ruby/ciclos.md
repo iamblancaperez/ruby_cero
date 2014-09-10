@@ -1,10 +1,10 @@
 # Ciclos
 
-Los ciclos o bucles se utilizan para ejecutar un bloque de codigo una cantidad limitada de veces. Es importante que la condicion de parada del ciclo este bien definida para el ciclo pare, en caso contrario quedara en un ciclo infinito.
+Los ciclos o bucles se utilizan para ejecutar un bloque de código una cantidad limitada de veces. Es importante que la condicion de parada del ciclo esté bien definida para que el ciclo se detenga, en caso contrario quedara en un ciclo infinito.
 
 ## WHILE
 
-El ciclo while ejecuta un bloque de codigo mientras la condicion retorne TRUE
+El ciclo while ejecuta un bloque de código mientras la condición retorne TRUE
 
 ```ruby
 #!/usr/bin/ruby
@@ -31,7 +31,7 @@ el número es: 4
 
 ## REPEAT
 
-El repeat funciona de manera similar a el while pero la condicion se ejecuta al final del bloque
+El repeat funciona de manera similar a el while pero la condición se ejecuta al final del bloque
 
 ```ruby
 #!/usr/bin/ruby
@@ -58,7 +58,7 @@ el número es: 4
 
 ## UNTIL
 
-El until ejecuta un bloque de codigo hasta que se cumpla la condicion, es decir, hasta que la condicion retorne TRUE
+El until ejecuta un bloque de código hasta que se cumpla la condición, es decir, hasta que la condición retorne TRUE
 
 ```ruby
 #!/usr/bin/ruby
@@ -86,7 +86,7 @@ el número es: 5
 
 ## FOR
 
-El metodo for ejecuta un bloque de codigo por cada elemento dentro de un rango o un array (el rango y el array no son lo mismo)
+El método for ejecuta un bloque de código por cada elemento dentro de un rango o un array (el rango y el array no son lo mismo)
 
 Ejemplo
 
@@ -105,7 +105,7 @@ for i in arreglo
 end
 ```
 
-El resultado de ejecutar este archivo seria.
+El resultado de ejecutar este archivo sería.
 
 ```bash
 ruby ~/Desktop/ejemplo_for.rb
@@ -125,6 +125,6 @@ El valor de la variable es: cinco
 El valor de la variable es: seis
 ```
 
-## Conclusion
+## Conclusión
 
-En ruby podemos ejecutar un codigo N cantidad de veces usando las estructuras ya conocidas de ciclos, aunque en Ruby generalmente estos ciclos no son usados regularmente
+En ruby podemos ejecutar un código N cantidad de veces usando las estructuras de ciclos antes mencionadas, aunque en Ruby generalmente estos ciclos no son usados regularmente
